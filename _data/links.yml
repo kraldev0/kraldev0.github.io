@@ -1,0 +1,15 @@
+- text: ReplayBook
+  url: https://www.fraxiinus.dev/ReplayBook/
+  icon: book-half
+- text: GitHub - fraxiinus
+  url: https://github.com/fraxiinus
+  icon: github
+- text: Bluesky - @wifienyabledcat.fraxiinus.dev
+  url: https://bsky.app/profile/wifienyabledcat.fraxiinus.dev
+  icon: cloud-sun-fill
+- text: Instagram - @foxliketyping
+  url: https://www.instagram.com/foxliketyping/
+  icon: instagram
+- text: contact@fraxiinus.dev
+  url: mailto:contact@fraxiinus.dev
+  icon: envelope-fill

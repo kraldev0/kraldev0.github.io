@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# Link in bio template
+Template for creating a simple “link in bio” site using [GitHub Pages](https://pages.github.com/).
 
-You can use the [editor on GitHub](https://github.com/fraxiinus/fraxiinus.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<img width="1032" alt="linkinbio-template-screenshot" src="https://user-images.githubusercontent.com/5177337/227823745-ffb6acf3-fd3d-422f-b118-58ec50a72143.png">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting started
 
-### Markdown
+### Copying the template and setting up publishing
+1. Press the `Use this template` button on the `Code` tab and select `Create a new repository`.
+1. Go to the `Settings` tab and then go to the `Pages` settings.
+1. Set the source branch to `main` and press `Save`.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You'll see a URL show up, but the site takes a few minutes before it's actually live.
 
-```markdown
-Syntax highlighted code block
+## Swapping out your content
 
-# Header 1
-## Header 2
-### Header 3
+This is the content you'll want to update with your info:
 
-- Bulleted
-- List
+1. Name and profile blurb
+1. Avatar image and alt text
+1. Links
+1. Interests (Optional)
+1. Metadata
 
-1. Numbered
-2. List
+### Name and profile blurb
 
-**Bold** and _Italic_ and `Code` text
+- Open `index.md` and change the `avatar-name` setting to your name.
+- Use the content area to write your profile blurb. Use GitHub-flavored Markdown for formatting.
 
-[Link](url) and ![Image](src)
-```
+### Avatar image and alt text
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- If you don't have an existing image online to use, upload one and copy the URL.
+  - Go to the `assets/img` folder in your repo and use the `Add file` action.
+- Open `index.md` and change `avatar-url` to the url of your image.
+  - For example, `assets/img/YOUR-FILE.jpg`
+  
+### Links
 
-### Jekyll Themes
+- Open `_data/links.yml` and change the list of items, using the text, URL, and icon you want for each link.
+  - See [Bootstrap Icons](https://icons.getbootstrap.com/) for the names of the icons.
+  
+### Interests
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fraxiinus/fraxiinus.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Open `data/interests.yml` and change the list of items.
+  - Put each item on a new line preceded by a hyphen and a space (`- `).
+  - If you want to change the text preceding the interests, open `index.md` and change the `interest-prefix` setting.
 
-### Support or Contact
+### Metadata
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Open `data/metadata.yml` to change the site title, description, and language information used by browsers and search engines.
+
+## Credit and license
+This project was created using the [GitHub Pages gem for Jekyll](https://github.com/github/pages-gem). It is licensed under The Unlicense, which allows everything and promises nothing.
+
+Favicon is `Soft Ice Cream` from [Twemoji](https://twemoji.twitter.com/), licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Other parts of this project, including Primer CSS and Bootstrap, have their own licenses.

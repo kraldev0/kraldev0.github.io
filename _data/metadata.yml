@@ -1,0 +1,8 @@
+# The title of the website that shows up in the browser tab and bookmarks
+title: "fraxiinus dot dev"
+
+# The description of the website that shows up in web search results
+description: "website for the worlds best worst decision maker"
+
+# The main language of the site. Use HTML Language Code Reference.
+language: "en"

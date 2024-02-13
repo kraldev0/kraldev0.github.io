@@ -1,1 +1,2 @@
-theme: jekyll-theme-minimal
+# Avoid GitHub API authentication when building locally.
+github: [metadata]
