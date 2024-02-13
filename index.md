@@ -5,5 +5,5 @@ avatar-alt-text: "fraxiinus avatar, cartoon character with transgender flag back
 interest-prefix: "big fan of"
 ---
 
-world's best worst decision maker  
+world's best bad decision maker  
 she/her
